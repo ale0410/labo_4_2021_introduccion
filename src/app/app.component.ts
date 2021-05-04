@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'primer-proyecto';
+
+
+  CambiarTitulo()
+  {
+    this.title = "otro titulo";
+  }
 }
